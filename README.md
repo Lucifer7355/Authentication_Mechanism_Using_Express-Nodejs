@@ -10,3 +10,13 @@ Use the accessToken to access “/posts”
 Once the “accessToken” expires after 15 mins, refresh both tokens by calling the /refresh API (using the unexpired “refreshToken”)
 ![Once the “accessToken” expires after 15 mins, refresh both tokens by calling the /refresh API (using the unexpired “refreshToken”)](https://github.com/Lucifer7355/Authentication_Mechanism_Using_Express-Nodejs/blob/main/demonstration_pictures/Screenshot%20(265).png)
 Finally in order to logout just hit the end point with the current access token which will remove the given token from the list of active user tokens.
+# Installation Procedure
+Anyone interested in testing the application can follow the following steps to make call to the rest apis.
+```
+- git clone https://github.com/Lucifer7355/Authentication_Mechanism_Using_Express-Nodejs.git
+- cd Authentication_Mechanism_Using_Express-Nodejs
+- npm install 
+- nodemon authServer.js
+- Now open a new terminal shell and run "nodemon validateToken.js" without quotes.
+- Open postman or insomnia to make a rest api testing call to the backend.
+```
